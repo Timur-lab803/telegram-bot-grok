@@ -4,8 +4,8 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-GROK_API_KEY = os.getenv("GROK_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8264902164:AAEPBmz3EQM8ukHUMVlxvdHmebws5HEQ3bQ")
+GROK_API_KEY = os.getenv("xai-kaD9eoZYfAV17tvEjeb1Q2ZMWOsm7R8VbAHBAnNFCW9vF6hODoxethPGkaaRyzGNJfv7HGf65vFxpds8")
 GROK_API_URL = os.getenv("GROK_API_URL", "https://api.grok.ai/v1/generate")
 
 if not TELEGRAM_TOKEN:
